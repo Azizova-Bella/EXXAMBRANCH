@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page3</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="bg-[#FEDCD3]">
+        <navbar class="flex justify-around pt-5 items-baseline">
+            <img src="./img/logo1.png" alt="">
+            <div class=" flex gap-10 text-[18px] text-[#424551]">
+                <select name="" id="pages" class="" onchange="navigateToPage()">
+                    <option value="" disabled selected class="bg-[#FFDAD6]">Which page?</option>
+                    <option value="index1.html">Page 1</option>
+                    <option value="index3.html">Page 3</option>
+                    <option value="index4.html">Page 4</option>
+                    <option value="index5.html">Page 5</option>
+                    <option value="index6.html">Page 6</option>
+                    <option value="index7.html">Page 7</option>
+                    <option value="index8.html">Page 8</option>
+                    <option value="index9.html">Page 9</option>
+                    <option value="index10.html">Page 10</option>
+                </select>
+                <script>
+                    function navigateToPage() {
+                        const selector = document.getElementById('pages');
+                        const selectedPage = selector.value;
+                        if (selectedPage) {
+                            window.location.href = selectedPage;
+                        }
+                    }
+                </script>
+                <p>About Us</p>
+                <p>Courses</p>
+                <p>Events</p>
+                <p>Blog</p>
+                <p>Contacts</p>
+            </div>
+            <div class="">
+                <button class="bg-[#FE462F]  py-5 px-16 font-bold text-white  rounded-md">Get consultation</button>
+                <button class="text-[18px] text-[#424551] font-bold ml-5"> 👤 Log in / Register</button>
+            </div>
+        </navbar>
+    </section>
+    <div class="flex flex-col items-center pt-10 pb-20 bg-[#FEDCD3]">
+        <p style="font-weight: 500; font-size: 20px; color: red;">COURSE</p>
+        <p style="font-size: 35px; font-weight: 600; text-align: center;"> User Experience. Principles of
+            Human-Centered <br> Design</p>
+    </div>
+    </div>
+    </navbar>
+    <header class="flex justify-center mt-10 ">
+        <div class="flex flex-col gap-10">
+            <div class="flex flex-col gap-1">
+                <p style="font-weight: 500; font-size: 25px;">ABOUT THE COURSE</p>
+                <p style=" color: gray; font-size: 14px;"> Bibendum vulputate adipiscing venenatis at est, a eu
+                    tincidunt. Leo aenean
+                    congue in <br>
+                    sagittis, felis maecenas amet varius at. Pellentesque euismod in faucibus at <br>
+                    elementum. Tellus maecenas libero est tempus sit cras at malesuada diam. Consequat <br>
+                    senectus dictumst non hac dignissim montes, pretium, egestas molestie. Sed magna <br>
+                    aliquet ornare nibh vel lectus diam eget pretium. Lorem risus nunc tincidunt tortor, mi <br>
+                    nulla pellentesque</p>
+            </div>
+            <div class="flex flex-col gap-2 text-[15px]">
+                <p style="font-weight: 500; font-size: 20px; padding-bottom: 15px;">YOU WILL LEARN:</p>
+                <div class="flex flex-col gap-5 sm:w-[90%] sm:m-auto md:w-[90%] md:m-auto">
+
+                    <div class="flex items-start space-x-2 ">
+                        <img src="./img/check.png" alt="" class="w-6 h-6">
+                        <p class="text-base text-[13px]">A fermentum in morbi pretium aliquam adipiscing donec tempus.
+                        </p>
+                    </div>
+                    <div class="flex items-start space-x-2 ">
+                        <img src="./img/check.png" alt="" class="w-6 h-6">
+                        <p class="text-base text-[13px]">Vulputate placerat amet pulvinar lorem nisl.</p>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <img src="./img/check.png" alt="" class="w-6 h-6">
+                        <p class="text-base text-[13px]">Consequat feugiat habitant gravida quisque elit bibendum id
+                            adipiscing sed.
+                        </p>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <img src="./img/check.png" alt="" class="w-6 h-6">
+                        <p class="text-base text-[13px]">Etiam duis lobortis in fames ultrices commodo nibh.</p>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <img src="./img/check.png" alt="" class="w-6 h-6">
+                        <p class="text-base text-[13px]">Fringilla in nec risus congue venenatis pretium posuere nec.
+                        </p>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <img src="./img/check.png" alt="" class="w-6 h-6">
+                        <p class="text-base text-[13px]">Cursus eu pretium, vulputate tempus quam massa sed at.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="./img/sidebar.png" alt="" class=" w-[580px]">
+        </div>
+    </header>
+    <main>
+        <div class="flex justify-around gap-5 pt-14 ml-[200px] ">
+            <div>
+                <img src="./img/curator-image.png" alt="" class="w- [450px] ">
+            </div>
+            <div class="flex flex-col gap-6 items-start pt-8">
+                <p>COURSE CURATOR</p>
+                <p class="font-bold text-[30px]">Cody Fisher</p>
+                <p style="color: gray; font-size: 13px;">Senior UX designer in IT Product Company</p>
+                <p>⭐ 4.9 rate</p>
+                <p> ▶️ 4 courses</p>
+                <p>👩🏻‍💻 350 students</p>
+                <p style="color: gray; font-size: 13px;">Mattis adipiscing aliquam eu proin metus a iaculis faucibus.
+                    Tempus curabitur <br>
+                    venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis <br>
+                    commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur <br>
+                    vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea <br>
+                    id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique <br>
+                    sollicitudin interdum quam. </p>
+                <img src="./img/socials (1).png" alt="">
+            </div>
+        </div>
+        <div class="pb-16">
+            <div class="flex flex-col items-center pt-10">
+                <p style="font-weight: 500; font-size: 20px;">MAIN STEPS</p>
+                <p style="font-size: 35px; font-weight: 600; text-align: center;"> Online learning process</p>
+            </div>
+            <div class="flex justify-center gap-5 pt-10 ">
+                <div>
+                    <div class="flex items-center gap-2">
+                        <p class="text-[35px] text-gray-500">01</p>
+                        <img src="./img/line.png" alt="">
+                    </div>
+
+                    <div>
+                        <p style="font-weight: 500; font-size: 18px;">Watching online video lectures</p>
+                        <p style="font-size: 14px; color: gray;">Culpa nostrud commodo ea consequat <br> aliquip
+                            reprehenderit. Veniam velit <br> nostrud aliquip sunt.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <p class="text-[35px] text-gray-500"">02</p>
+                        <img src=" ./img/line.png" alt="">
+                    </div>
+                    <div>
+                        <p style="font-weight: 500; font-size: 18px;">Passing test</p>
+                        <p style="font-size: 14px; color: gray;">Anim reprehenderit sint voluptate <br>
+                            exercitation adipisicing laborum <br> adipisicing. Minim ad tempor est ea.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <p class="text-[35px] text-gray-500"">03</p>
+                        <img src=" ./img/line.png" alt="">
+                    </div>
+                    <div>
+                        <p style="font-weight: 500; font-size: 18px;">Curator’s feedback</p>
+                        <p style="font-size: 14px; color: gray;">Adipisicing esse aliqua aliquip qui amet. <br>
+                            Aute eiusmod dolore dolore et <br> ad et veniam ad deserunt.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <img src="./img/04.png" alt="">
+                    </div>
+                    <div>
+                        <p style="font-weight: 500; font-size: 18px;">Curator’s feedback</p>
+                        <p style="font-size: 14px; color: gray;">Adipisicing esse aliqua aliquip qui amet. <br>
+                            Aute eiusmod dolore dolore et <br> ad et veniam ad deserunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#FEDCD2] w-[90%] m-auto">
+            <div class="flex justify-center gap-96 pt-10 ">
+                <div>
+                    <p class="text- [24px] font-bold">20% discount for early birds!</p>
+                </div>
+                <div class="flex items-center gap-5">
+                    <div class="font-bold">
+                        <p>06</p>
+                        <p>Days</p>
+                    </div>
+                    <div class="font-bold">
+                        <p>18</p>
+                        <p>Hours</p>
+                    </div>
+                    <div class="font-bold">
+                        <p>24</p>
+                        <p>Mins</p>
+                    </div>
+                    <div class="font-bold">
+                        <p>12</p>
+                        <p>Sec</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex justify-center pt-10 items-center gap-20 pb-10">
+                <div>
+                    <div class="flex flex-col">
+                        <label for="">Full name</label>
+                        <input type="text" placeholder="Your full name" class="h-8 rounded">
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-col">
+                        <label for="">Email</label>
+                        <input type="text" placeholder="Your working email" class="h-8 rounded">
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-col">
+                        <label for="">Phone</label>
+                        <input type="text" placeholder="Your phone number" class="h-8 rounded">
+                    </div>
+                </div>
+                <div>
+                    <p
+                        class="border border-[#FF3F3A] w-36 h-8 flex items-center justify-center bg-[#FF3F3A] text-[white] rounded-md">
+                        Join the course</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center pt-28 gap-60">
+            <div class="flex flex-col items-center">
+                <p class="font-bold text-[20px]">FOR WHOM?</p>
+                <p class="text-[35px] font-bold: text-enter"> Who will benefit from <br> the
+                    course:</p>
+            </div>
+            <div class="flex flex-col gap-6">
+                <div class="flex items-start space-x-2 ">
+                    <img src="./img/check.png" alt="" class="w-6 h-6">
+                    <p class="text-base text-[13px]">Specialists with more than 1 year of active work experience
+                    </p>
+                </div>
+                <div class="flex items-start space-x-2 ">
+                    <img src="./img/check.png" alt="" class="w-6 h-6">
+                    <p class="text-base text-[13px]">Mobile app designers who want to improve their skills in <br>
+                        solving business problems, creating and testing <br> human-centered interfaces</p>
+                </div>
+                <div class="flex items-start space-x-2">
+                    <img src="./img/check.png" alt="" class="w-6 h-6">
+                    <p class="text-base text-[13px]">Professional designers who want to feel more confident in UX
+                    </p>
+                </div>
+                <div class="flex items-start space-x-2">
+                    <img src="./img/check.png" alt="" class="w-6 h-6">
+                    <p class="text-base text-[13px]">Specialists who would like to structure their knowledge, fill in
+                        <br> the gaps
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center gap-10 pt-20 pb-20 ">
+            <div>
+                <div class="flex flex-col gap-5">
+                    <p class="font-bold text- [20px]">COURSE PROGRAME</p>
+                    <p class="font-bold text-[35px]"> What will you learn</p>
+                </div>
+                <div>
+                    <div class="flex flex-col gap-4">
+                        <div class="flex gap-4">
+                            <img src="./img/Minus.png" alt="">
+                            <p style="font-weight: 500;"><span style="color: red;">Lesson 1.</span> Aliquet lectus urna
+                                viverra in odio.</p>
+                        </div>
+                        <div>
+                            <p class="text-[gray]">Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar
+                                aliquet donec <br>
+                                enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio
+                                <br>
+                                mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis.
+                                <br>
+                                Commodo nunc orci vitae accumsan id.
+                            </p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./img/Plus.png" alt="">
+                            <p class="font-bold"><span style="color: red;">Lesson 2.</span> Orci commodo,
+                                viverra
+                                orci mollis ut euismod.</p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./img/Plus.png" alt="">
+                            <p class="font-bold"><span style="color: red;">Lesson 3.</span> Sagittis vitae
+                                facilisi
+                                rutrum amet mauris quisque vel.</p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./img/Plus.png" alt="">
+                            <p class="font-bold"><span style="color: red;">Lesson 4.</span> In id dolor quis
+                                nunc, urna hendrerit pharetra.</p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./img/Plus.png" alt="">
+                            <p class="font-bold"><span style="color: red;">Lesson 5.</span>Est, ut tempus id
+                                rutrum
+                                facilisi.</p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./img/Plus.png" alt="">
+                            <p class="font-bold"><span style="color: red;">Lesson 6.</span>Amet nec in
+                                pellentesque.
+                            </p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./img/Plus.png" alt="">
+                            <p class="font-bold"><span style="color: red;">Lesson 7.</span>Massa vel arcu
+                                mauris, id
+                                vel rhoncus mattis quis.</p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./img/Plus.png" alt="">
+                            <p class="font-bold"><span style="color: red;">Lesson 8.</span>Neque, cursus sapien
+                                nullam id.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#F4F5F6]">
+            <div class="bg-[#F4F5F6] ">
+
+                <!-- zann -->
+                <section class="bg-[#F4F5F6] py-16">
+                    <div class="container mx-auto px-4">
+                        <div class="text-center mb-12">
+                            <h3 class="text-sm uppercase tracking-widest text-gray-500">Testimonials</h3>
+                            <h2 class="text-3xl font-bold text-gray-800">What our students say</h2>
+                        </div>
+                        <div class="bg-[#F4F5F6] shadow-lg rounded-lg p-8 mx-auto max-w-3xl relative">
+                            <div class="absolute top-[-20px] left-8 text-red-500 text-5xl">
+                            </div>
+                            <p class="text-gray-700 text-lg leading-relaxed">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra
+                                mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                                ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque
+                                pharetra arcu diam maecenas diam integer in.
+                            </p>
+                            <div class="flex items-center mt-6">
+                                <img src="./img/image (34).png" alt="Eleanor Pena"
+                                    class="w-12 h-12 rounded-full object-cover" />
+                                <div class="ml-4">
+                                    <h4 class="text-gray-800 font-semibold">Eleanor Pena</h4>
+                                    <p class="text-sm text-gray-500">Position, Course</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8 flex justify-center space-x-2">
+                            <span class="w-3 h-3 rounded-full bg-gray-300"></span>
+                            <span class="w-3 h-3 rounded-full bg-gray-800"></span>
+                            <span class="w-3 h-3 rounded-full bg-gray-300"></span>
+                        </div>
+                        <div class="absolute top-[50%] left-4 transform -translate-y-1/2">
+                            <button class="bg-white border border-gray-300 p-2 rounded-full shadow-lg"></button>
+                        </div>
+                        <div class="absolute top-[50%] right-4 transform -translate-y-1/2">
+                            <button class="bg-white border border-gray-300 p-2 rounded-full shadow-lg"></button>
+                        </div>
+                    </div>
+
+
+                    <div class="flex flex-col justify-center pt-10 items-center gap-5 pb-10">
+                        <div class="flex flex-col items-center pt-10">
+                            <p style="font-weight: 500; font-size: 18px;">Leave a request now and get 20% off!</p>
+                            <p style="font-size: 30px; font-weight: 600"> Register for the course</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-10">
+                                <img src="./img/illustration (4).png" alt="">
+                                <div class="p-10">
+                                    <div class="flex flex-col">
+                                        <label for="">Full name</label>
+                                        <input type="text" placeholder="Your full name" class="h-8 rounded w-72">
+                                    </div>
+
+                                    <div class="p-10">
+                                        <div class="flex flex-col">
+                                            <label for="">Email</label>
+                                            <input type="text" placeholder="Your working email"
+                                                class="h-8 rounded w-72">
+                                        </div>
+                                    </div>
+                                    <div class="p-10">
+                                        <div class="flex flex-col">
+                                            <label for="">Phone</label>
+                                            <input type="text" placeholder="Your phone number" class="h-8 rounded w-72">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p
+                                            class="border border-[#FF3F3A] w-72 h-8 flex items-center justify-center bg-[#FF3F3A] text-[white] rounded-md">
+                                            Join the course</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <div>
+            <div class="flex justify-center gap-10 pt-10 ">
+                <div class="flex gap-8 bg-[#FFFFFF] w-[530px] rounded-lg shadow-md">
+                    <div>
+                        <img src="./img/mann1.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-8 pt-10">
+                        <p class=" bg-[#03CEA4] rounded-md text-[white] w-[90px] flex justify-center">Marketing</p>
+                        <p style="font-weight: bold;">The Ultimate Google Ads Training <br> Course</p>
+                        <div class="flex items-center gap-2">
+                            <p class="text-red-600">$100</p>
+                            <p class="text-[gray]">by Jerome Bell</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-8 bg-[#FFFFFF] w-[530px] rounded-lg shadow-md m-auto">
+                    <div>
+                        <img src="./img/mann2.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-8 pt-10">
+                        <p class=" bg-[#5A87FC] rounded-md text-[white] w-[110px] flex justify-center">Management</p>
+                        <p style="font-weight: bold;">Prduct Management Fundamentals</p>
+                        <div class="flex items-center gap-2">
+                            <p style="color: red;">$480</p>
+                            <img src="./img/divider.png" alt="">
+                            <p style="color: gray;">by Marvin McKinney</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center py-16 gap-10 m-auto">
+                <p style="font-size: 23px; font-weight: 600;">Do you want more courses?</p>
+                <p
+                    class="border border-[#FF3F3A] w-40 h-8 flex items-center justify-center text-[white] bg-[#FF3F3A] rounded">
+                    View all courses</p>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-8">
+            <div class="md:col-span-2">
+                <img src="./img/logo (2).png" alt="" class="pb-5">
+                <p class="text-sm">
+                    Createx Online School is a leader in online studying. We have lots of courses and programs from
+                    the main market
+                    experts. We provide relevant approaches to online learning. Internships and employment in the
+                    largest companies
+                    in the country.
+                </p>
+                <div class="flex space-x-4 mt-4">
+                    <a href="#" class="text-gray-400 hover:text-white">
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Site Map</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">About Us</a></li>
+                    <li><a href="#" class="hover:text-white">Courses</a></li>
+                    <li><a href="#" class="hover:text-white">Events</a></li>
+                    <li><a href="#" class="hover:text-white">Blog</a></li>
+                    <li><a href="#" class="hover:text-white">Contacts</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Courses</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Marketing</a></li>
+                    <li><a href="#" class="hover:text-white">Management</a></li>
+                    <li><a href="#" class="hover:text-white">HR & Recruiting</a></li>
+                    <li><a href="#" class="hover:text-white">Design</a></li>
+                    <li><a href="#" class="hover:text-white">Development</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Contact Us</h4>
+                <p class="text-sm">
+                    (405) 555-0128
+                </p>
+                <p class="text-sm mt-2">
+                    hello@createx.com
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Sign up to our newsletter</h4>
+                <div class="flex">
+                    <input type="email" placeholder="Email address"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-orange-500" />
+                    <button class="bg-orange-500 text-white px-4 py-2 rounded-r-lg hover:bg-orange-600">
+                    </button>
+                </div>
+                <p class="text-xs text-gray-500 mt-2">
+                    *Subscribe to our newsletter to receive communications and early updates from Createx SEO
+                    Agency.
+                </p>
+            </div>
+        </div>
+        <div class="text-center text-gray-600 text-xs mt-12">
+            © All rights reserved. Made with <span class="text-red-500">❤️</span> by Createx Studio
+        </div>
+    </footer>
+</body>
+
+</html>
